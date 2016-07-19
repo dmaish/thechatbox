@@ -35,7 +35,15 @@
      <!--row3-->
      <div class="row">
          <div class="small-12 columns main">
-            
+            <!--this is the form on the chartroom-->
+            <form>
+    <label><b>Enter a Message</b></label>
+    <input type="text" name="message" id="user_input">
+  </form>
+
+  <input type="submit" onclick="showInput();"><br/>
+  <label>Your input: </label>
+  <p><span id='display'></span></p>
          </div>
 
      </div>
@@ -51,7 +59,12 @@
    
     
 
-
+ <script language="JavaScript">
+    function showInput() {
+    document.getElementById('display').innerHTML = 
+    document.getElementById("user_input").value;
+    }
+  </script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
