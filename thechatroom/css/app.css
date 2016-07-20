@@ -5,13 +5,13 @@
 
 .title{
     background-color: #800517;
+    box-shadow: 10px 10px 5px #888888;
 }
 
 /*all divs stylings*/
 div {
     border:1px solid #404040;
     border-radius: 5px;
-     box-shadow: 10px 10px 5px #888888;
 }
 div:hover{
     opacity:0.9;
@@ -22,6 +22,7 @@ div:hover{
     height: 5em !important;
     margin-top:1em;
     margin-bottom: 1em;
+    box-shadow: 10px 10px 5px #888888;
 }
 /*div2 paragraph*/
 .teaser > p{
@@ -41,6 +42,6 @@ div:hover{
 
 .footer{
   height: 10em !important; 
-  background-color: #404040;
+  
 }
 
