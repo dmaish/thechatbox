@@ -44,14 +44,20 @@
   <label>Your input: </label>
   <p><span id='display'></span></p>
          </div>
-         
-         <form>
-              <input type="text" name="phone number">
-              <input type="text" name="Regex">
-              <input type="button">
-             </form>
-         
+    
+    <!--email form-->     
+            
+              <form name="myform" action="demo_form.asp" onsubmit="return validateForm()" method="post">
+Your Email: <input type="text" name="fname">
+<input type="submit" value="Submit">
+</form>
+     <!--Phonenumber-->    
 
+    <form name="myform" action="demo_form.asp" onsubmit="return validateForm()" method="post">
+Your phonenumber: <input type="text" name="fname">
+<input type="submit" value="Submit">
+</form>
+    
      </div>
      <!--row4-->
      <div class="row">

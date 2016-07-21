@@ -6,13 +6,11 @@
 .title{
     background-color: #800517;
     box-shadow: 10px 10px 5px #888888;
+    border-radius: 5px;
 }
 
 /*all divs stylings*/
-div {
-    border:1px solid #404040;
-    border-radius: 5px;
-}
+
 div:hover{
     opacity:0.9;
 }
@@ -23,6 +21,7 @@ div:hover{
     margin-top:1em;
     margin-bottom: 1em;
     box-shadow: 10px 10px 5px #888888;
+    border-radius: 5px;
 }
 /*div2 paragraph*/
 .teaser > p{
@@ -44,4 +43,45 @@ div:hover{
   height: 10em !important; 
   
 }
+/*The second form*/
+
+.main form{
+    width:60%;
+    align-content: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
